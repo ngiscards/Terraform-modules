@@ -9,6 +9,6 @@ variable "instance_type" {
 # variable "subnet_id" {
 # }
 
-variable "var.server_tag" {
+variable "server_tag" {
     default = "app-server"
 }
