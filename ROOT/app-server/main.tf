@@ -10,3 +10,8 @@ module "app-dev" {
     prv_cidr = "20.0.2.0/24"
     tag = "app"
 }
+
+module "app-server" {
+  source = ""
+  
+}
