@@ -12,7 +12,6 @@ module "app-dev" {
 }
 
 module "app-server" {
-  #source = "git@github.com/ngiscards/Terraform-modules//CHILD/EC2"
   source = "git::https://github.com/ngiscards/Terraform-modules.git//CHILD/EC2"
   
 }
