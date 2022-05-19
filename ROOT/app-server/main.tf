@@ -13,5 +13,5 @@ module "app-dev" {
 
 module "app-server" {
   source = "git::https://github.com/ngiscards/Terraform-modules.git//CHILD/EC2"
-  
+  subnet_id = module.app-dev.public_subnet_id
 }

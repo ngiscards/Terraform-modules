@@ -12,3 +12,7 @@ variable "subnet_id" {
 variable "server_tag" {
     default = "app-server"
 }
+
+variable "ec2_type" {
+  
+}
